@@ -1,0 +1,68 @@
+Experimento,Dataset,Shot,Classe,Ancoras,Positivas,Negativas,Total
+01,covid-chestxray-dataset-master,1-shot,No Finding,1,3,114,118
+01,covid-chestxray-dataset-master,1-shot,Pneumonia,1,11,106,118
+01,covid-chestxray-dataset-master,1-shot,Tuberculosis,1,3,114,118
+01,covid-chestxray-dataset-master,1-shot,Convid,1,97,20,118
+01,covid-chestxray-dataset-master,1-shot,Subtotal,4,114,354,472
+01,covid-chestxray-dataset-master,3-shot,No Finding,3,1,114,118
+01,covid-chestxray-dataset-master,3-shot,Pneumonia,3,9,106,118
+01,covid-chestxray-dataset-master,3-shot,Tuberculosis,3,1,114,118
+01,covid-chestxray-dataset-master,3-shot,Convid,3,95,20,118
+01,covid-chestxray-dataset-master,3-shot,Subtotal,12,106,354,472
+01,covid-chestxray-dataset-master,5-shot,No Finding,4,0,114,118
+01,covid-chestxray-dataset-master,5-shot,Pneumonia,5,7,106,118
+01,covid-chestxray-dataset-master,5-shot,Tuberculosis,4,0,114,118
+01,covid-chestxray-dataset-master,5-shot,Convid,5,93,20,118
+01,covid-chestxray-dataset-master,5-shot,Subtotal,18,100,354,472
+02,CXR8,1-shot,No Finding,1,764,24,789
+02,CXR8,1-shot,Pneumonia,1,23,765,789
+02,CXR8,1-shot,Subtotal,2,787,789,1578
+02,CXR8,3-shot,No Finding,3,762,24,789
+02,CXR8,3-shot,Pneumonia,3,21,765,789
+02,CXR8,3-shot,Subtotal,6,783,789,1578
+02,CXR8,5-shot,No Finding,5,760,24,789
+02,CXR8,5-shot,Pneumonia,5,19,765,789
+02,CXR8,5-shot,Subtotal,10,779,789,1578
+03,Imbalanced-Tuberculosis,1-shot,No Finding,1,1393,922,2316
+03,Imbalanced-Tuberculosis,1-shot,Pneumonia,1,637,1678,2316
+03,Imbalanced-Tuberculosis,1-shot,Tuberculosis,1,283,2032,2316
+03,Imbalanced-Tuberculosis,1-shot,Subtotal,3,2313,4632,6948
+03,Imbalanced-Tuberculosis,3-shot,No Finding,3,1391,922,2316
+03,Imbalanced-Tuberculosis,3-shot,Pneumonia,3,635,1678,2316
+03,Imbalanced-Tuberculosis,3-shot,Tuberculosis,3,281,2032,2316
+03,Imbalanced-Tuberculosis,3-shot,Subtotal,9,2307,4632,6948
+03,Imbalanced-Tuberculosis,5-shot,No Finding,5,1389,922,2316
+03,Imbalanced-Tuberculosis,5-shot,Pneumonia,5,633,1678,2316
+03,Imbalanced-Tuberculosis,5-shot,Tuberculosis,5,279,2032,2316
+03,Imbalanced-Tuberculosis,5-shot,Subtotal,15,2301,4632,6948
+04,makedataset,1-shot,No Finding,1,74,225,300
+04,makedataset,1-shot,Pneumonia,1,74,225,300
+04,makedataset,1-shot,Tuberculosis,1,74,225,300
+04,makedataset,1-shot,Convid,1,74,225,300
+04,makedataset,1-shot,Subtotal,4,296,900,1200
+04,makedataset,3-shot,No Finding,3,72,225,300
+04,makedataset,3-shot,Pneumonia,3,72,225,300
+04,makedataset,3-shot,Tuberculosis,3,72,225,300
+04,makedataset,3-shot,Convid,3,72,225,300
+04,makedataset,3-shot,Subtotal,12,288,900,1200
+04,makedataset,5-shot,No Finding,5,70,225,300
+04,makedataset,5-shot,Pneumonia,5,70,225,300
+04,makedataset,5-shot,Tuberculosis,5,70,225,300
+04,makedataset,5-shot,Convid,5,70,225,300
+04,makedataset,5-shot,Subtotal,20,280,900,1200
+05,all,1-shot,No Finding,1,2237,1283,3521
+05,all,1-shot,Pneumonia,1,748,2772,3521
+05,all,1-shot,Tuberculosis,1,362,3160,3523
+05,all,1-shot,Convid,1,172,3350,3523
+05,all,1-shot,Subtotal,4,3519,10565,14088
+05,all,3-shot,No Finding,3,2235,1283,3521
+05,all,3-shot,Pneumonia,3,746,2772,3521
+05,all,3-shot,Tuberculosis,3,360,3160,3523
+05,all,3-shot,Convid,3,170,3350,3523
+05,all,3-shot,Subtotal,12,3511,10565,14088
+05,all,5-shot,No Finding,5,2233,1283,3521
+05,all,5-shot,Pneumonia,5,744,2772,3521
+05,all,5-shot,Tuberculosis,5,358,3160,3523
+05,all,5-shot,Convid,5,168,3350,3523
+05,all,5-shot,Subtotal,20,3503,10565,14088
+Total,Total Geral,-,-,151,20987,51720,72858

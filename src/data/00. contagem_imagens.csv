@@ -1,0 +1,28 @@
+Dataset,No Finding,Pneumonia,Tuberculosis,Convid,Total
+Covid-chestxray-dataset,22,79,18,644,684
+CXR8,5092,155,0,0,5247
+Imbalanced-Tuberculosis,9288,4245,1888,0,15421
+MadeDataset,500,500,500,500,2000
+Padchest,9,0,3,0,0
+Total Geral,14911,5706,2409,1144,23370
+
+
+dataset,class,total,train,val,test
+CXR8,No Finding,5092,3564,763,765
+CXR8,Pneumonia,155,108,23,24
+Imbalanced-Tuberculosis,No Finding,9288,6501,1393,1394
+Imbalanced-Tuberculosis,Pneumonia,4245,2971,636,638
+Imbalanced-Tuberculosis,Tuberculosis,1888,1321,283,284
+covid-chestxray-dataset-master,Convid,644,450,96,98
+covid-chestxray-dataset-master,No Finding,22,15,3,4
+covid-chestxray-dataset-master,Tuberculosis,18,12,2,4
+covid-chestxray-dataset-master,Pneumonia,79,55,12,12
+makedataset,Convid,500,350,75,75
+makedataset,No Finding,500,350,75,75
+makedataset,Pneumonia,500,350,75,75
+makedataset,Tuberculosis,500,350,75,75
+TOTAL,ALL,23370,16357,3502,3511
+
+Tempo total,20h 11m 14s
+VGG19.py, 14h 25m 9s
+ResNet50v2.py, 5h 46m 4s
